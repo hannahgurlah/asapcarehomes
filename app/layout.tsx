@@ -59,6 +59,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${plusJakartaSans.variable} ${urbanist.variable} ${inter.variable} antialiased`}
+        suppressHydrationWarning
       >
         <Header />
         {children}
