@@ -10,6 +10,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-poppins: var(--font-poppins);
+  
+  --font-family-poppins: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  
+  /* Design System Colors */
+  --color-primary-50: #2A5557;
+  --color-secondary-50: #E27F99;
+  --color-accent-teal: #D1EBEB;
+  --color-accent-pink: #FEE7ED;
+  --color-text-primary: #1A202C;
+  --color-text-secondary: #556990;
 }
 
 @media (prefers-color-scheme: dark) {
